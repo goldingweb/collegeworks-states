@@ -1,0 +1,179 @@
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 75px;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+/*
+ * SKIN
+ */
+ 
+ 
+/*** arrows **/
+
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+	background:none;
+	padding:0px 0px 0px 0px; 
+	width:573px;
+	min-height:230px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  573px;
+    height: 230px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 573px;
+    height: 230px;
+}
+.jcarousel-skin-tango .jcarousel-item a {}
+.jcarousel-skin-tango .jcarousel-item a:hover {}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+	background:url(../../images/button2.png) 0 0 no-repeat; height:21px; width:14px; position:absolute; top:-32px; right:5px; z-index:2; cursor:pointer;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+   background:url(../../images/button2.png) 0 -21px no-repeat;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    top:-31px;
+    right: 5px;    
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	background:url(../../images/button1.png) 0 0 no-repeat; height:21px; width:14px; position:absolute; top:-32px; right:23px; z-index:2;  cursor:pointer;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+	background:url(../../images/button1.png) 0 -21px no-repeat;    
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    top:-31px;
+    right: 23px;    
+}		
+
+
+.jcarousel-skin-tango-1 .jcarousel-container {
+}
+
+.jcarousel-skin-tango-1 .jcarousel-container-horizontal {
+	margin:0 auto; 
+	background:none;
+	padding:25px 0px 0px 5px; 
+	width:960px;
+	min-height:905px;
+}
+
+.jcarousel-skin-tango-1 .jcarousel-clip-horizontal {
+    width:  950px;
+    height: 905px;
+}
+
+.jcarousel-skin-tango-1 .jcarousel-item {
+    width: 310px;
+    height: 905px;
+}
+.jcarousel-skin-tango-1 .jcarousel-item a {color:#b36347; text-decoration:none}
+.jcarousel-skin-tango-1 .jcarousel-item a:hover {text-decoration:underline;}
+
+.jcarousel-skin-tango-1 .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango-1 .jcarousel-next-horizontal {
+	background:url(../../images/button2.png) 0 0 no-repeat; height:21px; width:14px; position:absolute; top:-24px; right:11px; z-index:2; cursor:pointer;
+}
+
+.jcarousel-skin-tango-1 .jcarousel-next-horizontal:hover {
+   background:url(../../images/button2.png) 0 -21px no-repeat;
+}
+
+.jcarousel-skin-tango-1 .jcarousel-next-horizontal:active {
+    top: -24px;
+    right: 11px;    
+}
+
+.jcarousel-skin-tango-1 .jcarousel-prev-horizontal {
+	background:url(../../images/button1.png) 0 0 no-repeat; height:21px; width:14px; position:absolute; top:-24px; right:29px;z-index:2;  cursor:pointer;
+}
+
+.jcarousel-skin-tango-1 .jcarousel-prev-horizontal:hover {
+	background:url(../../images/button1.png) 0 -21px no-repeat;    
+}
+
+.jcarousel-skin-tango-1 .jcarousel-prev-horizontal:active {
+    top: -24px;
+    right: 29px;    
+}
+ 

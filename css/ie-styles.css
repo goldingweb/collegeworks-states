@@ -1,0 +1,23 @@
+#container, #menubar {
+	font-family: 'Arial', sans-serif;
+}
+
+#menubar ul li a {
+	padding: 10px 16px 8px 16px;
+}
+
+#topper-contact {font-size: 13px;}
+
+.ieFlRt {float:right; display:inline;}
+
+/* Foundation v2.2 http://foundation.zurb.com */
+/* This is for all IE specfific style less than IE9. We hate IE. */
+
+	div.panel { border: 1px solid #ccc; }
+	.lt-ie8 .nav-bar li.has-flyout a { padding-right: 20px; }
+	.lt-ie8 .nav-bar li.has-flyout a:after { border-top: none; }
+
+#mainer, #menubar, #menubar ul li:hover, #menubar ul li.current, #menubar ul ul {
+            box-shadow: none !important;
+		      /*behavior: url(PIE.htc); <----------------- */	
+}
